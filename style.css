@@ -65,7 +65,7 @@ nav > span {
 header {
   text-align: center;
   color: white;
-  background-color: #114643;
+  background-color: #04495b;
   height: 280px;
   display: flex;
   flex-direction: column;
@@ -147,7 +147,7 @@ textarea {
 }
 
 #form-section {
-  background-color: #114643;
+  background-color: #04495b;
   color: white;
   padding: 8px;
   margin-top: 16px;
