@@ -11,6 +11,7 @@ Di dalam navigation ada beberapa menu:
 - Kompetisi
 - Profil atlit
 - Kontak
+
 Menu-menu diatas belum terhubung dengan link.
 Untuk Hamburger belum diaplikasikan, kedepannya akan dibuat 'ketika hambuger di klik maka akan keluar menu Berita, Kompetisi, Profil atlit dan Kontak'
 ## KOMPONEN YANG DIGUNAKAN
