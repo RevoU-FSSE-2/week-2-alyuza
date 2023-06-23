@@ -1,71 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Week 2 Project</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <nav class="navbar-container">
-            <span class="relative-container">
-                <img class="nav-icon" src="Assets/taekwondo-icon.png" alt="World Taekwondo Icon">
-            </span>
-            <h1><strong>WORLD TAEKWONDO FEDERATION</strong></h1>
-            <ul class="desktop-menu">
-                <li><a href="http://www.worldtaekwondo.org/wtnews/wtnews_index.html" target="_blank">NEWS</a></li>
-                <li><a href="http://www.worldtaekwondo.org/competition/competition_index.html" target="_blank">COMPETITIONS</a></li>
-                <li><a href="http://www.worldtaekwondo.org/ranking/rk_index.html" target="_blank">ATHLETES</a></li>
-                <li><a href="https://www.instagram.com/worldtaekwondo/" target="_blank">CONTACT</a></li>
-            </ul>
-        </nav>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Taekwondo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <nav>
+      <span class="relative-container">
+        <img
+          src="Assets/taekwondo.png"
+          alt="Taekwondo icon"
+        />
+        <b>WORLD TAEKWONDO FEDERATION</b>
+      </span>
+      <span class="mobile">
+        <img
+          src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
+          alt="Hamburger Icon"
+        />
+      </span>
+      
+      <ul class="desktop">
+        <li><a href="#">NEWS</a></li>
+        <li><a href="#">COMPETITIONS</a></li>
+        <li><a href="#">ATHLETES</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <header class="full-screen" id="header">
+      <h1>Welcome to World Taekwondo</h1>
+      <p>Stands at the forefront of promoting this traditional Korean discipline on a worldwide scale.</p>
+    </header>
+    <main>
+      <section id="taekwondo-photos">
+        <h2>ROMA 2023 WORLD TAEKWONDO GRAND PRIX PHOTOS</h2>
+        <div class="grid-container">
+          <div id="item-1">
+            <img src="http://www.worldtaekwondo.org/ckedt_upload/up_img_md/20230612114328_day3_GP_Roma_Awarding_Ceremony-_(3).jpg" alt="Day 3 Awarding Ceremony">
+          </div>
+          <div id="item-2">
+            <img src="http://www.worldtaekwondo.org/ckedt_upload/up_img_md/20230612114328_day3_GP_Roma_Awarding_Ceremony-_(10).jpg" alt="Day 3 Awarding Ceremony">
+          </div>
+          <div id="item-3">
+            <img src="http://www.worldtaekwondo.org/ckedt_upload/up_img_md/20230612104504_day3_GP_Roma_16_and_Quarter-_(16).jpg" alt="Day 3 Awarding Ceremony">
+          </div>
+          <div id="item-4">
+            <img src="http://www.worldtaekwondo.org/ckedt_upload/up_img_md/20230612104505_day3_GP_Roma_16_and_Quarter-_(21).jpg" alt="Day 3 Awarding Ceremony">
+          </div>
+        </div>
+      </section>
 
-        <header></header>
-        <main></main>
-        <footer></footer>
-    </body>
+      <section id="section-ranking">
+        <h2>ROMA 2023 WORLD TAEKWONDO GRAND PRIX RANKING</h2>
+        <div class="grid-container">
+          <figure id="item-1">
+            <img
+              src="Assets/ranking.png"
+              alt="Taekwondo Ranking M-58Kg"
+            />
+            <figcaption>Taekwondo Ranking M-58Kg</figcaption>
+          </figure>
+          <figure id="item-2">
+            <img
+              src="Assets/ranking2.png"
+              alt="Taekwondo Ranking M-58Kg"
+            />
+            <figcaption>Taekwondo Ranking M-54Kg</figcaption>
+          </figure>
+        </div>
+      </section>
 
-    <!-- <form>
-        <section>
-            <h2>Join our Club</h2>
-            <fieldset>
-                <legend>Personal Data</legend>
-                <div>
-                    <label for="fullname">Full Name</label>
-                    <input type="text"
-                    id="fullname"
-                    name="fullname"
-                    placeholder="Input your Full Name"
-                    required
-                    />
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Input your email"
-                    required
-                    />
-                </div>
-            </fieldset>
-    
-            <fieldset>
-                <legend>Additional Information</legend>
-                <div>
-                    <p>What do you think about Penguins ?</p>
-                    <input type="checkbox" name="opinion" id="opinion-cute" required>
-                    <label for="opinion-cute">Cute</label>
-                </div>
-                <div>
-    
-                    <input type="checkbox" name="opinion" id="opinion-adorable" required>
-                    <label for="opinion-adorable">Adorable</label>
-                </div>
-                <button type="submit">Submit</button>
-            </fieldset>
-    
-            
-        </section>
-    </form> -->
+      <section id="section-video">
+        <h2>HIGHLIGHT VIDEO</h2>
+        <div class="flex-container">
+          <iframe width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Qwlg818x3mE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section id="form-section">
+        <h2>JOIN TAEKWONDO CLUB</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Personal Data:</legend>
+            <div>
+              <label for="fullName">Full Name:</label>
+              <input id="fullName" type="text" required />
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input id="email" type="email" required />
+            </div>
+
+            <div>
+              <p>Are you living in Korea?</p>
+              <input type="radio" id="yes" name="isIndonesia" value="Male" />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="isIndonesia" value="Female" />
+              <label for="no">No</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Additional information:</legend>
+            <div>
+              <p>What do you think about a Taekwondo?</p>
+              <input
+                id="cute"
+                type="checkbox"
+                name="personality"
+                value="cute"
+              />
+              <label for="cute">Strong</label>
+              <input
+                id="adorable"
+                type="checkbox"
+                name="personality"
+                value="adorable"
+              />
+              <label for="adorable">Impressive</label>
+              <input
+                id="beautiful"
+                type="checkbox"
+                name="personality"
+                value="beautiful"
+              />
+              <label for="beautiful">Great Martial Art</label>
+            </div>
+            <div>
+              <p>Tell us why you love Taekwondo</p>
+              <textarea rows="3"></textarea>
+            </div>
+            <div>
+              <p>Upload your picture here</p>
+              <input
+                type="file"
+                id="photo"
+                name="myPenguinPhoto"
+                required
+                accept="image/png, image/jpeg"
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
