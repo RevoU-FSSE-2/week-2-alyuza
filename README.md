@@ -1,9 +1,9 @@
 <!-- [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6H2sAzcR) -->
 # Week-2 RevoU Assignment 👨‍💻
 
-## Hi 👋 I'am Alyuza Satrio Prayogo 
-Pada tugas kedua ini saya membuat website seputar beladiri Taekwondo.
-Website ini dapat ditampilkan pada layar mobile dengan size minimal 380px dan size yang direkomendasikan adalah 1440px.
+## Hi semua, Saya Alyuza Satrio Prayogo 👋
+Pada tugas kedua ini saya membuat website seputar beladiri Taekwondo menggunakan Semantic element, Responsive design menggunakan media Query, flex dan grid.
+Website ini dapat ditampilkan pada layar desktop (1080px) dan layar mobile minimal (380px).
 
 
 Di dalam navigation ada beberapa menu:
@@ -20,8 +20,9 @@ Untuk Hamburger belum diaplikasikan, kedepannya akan dibuat 'ketika hambuger di 
 - JavaScript (masih kosong)
 - Assets (Picture)
 
+## HASIL TAMPILAN WEBSITE
 ![image](Assets/github.png)
 
-### DEPLOYMENT
+## DEPLOYMENT
 
-Click [here](https://world-taekwondo.netlify.app/) to see MY Project 
+Click [here](https://world-taekwondo.netlify.app/) to see my Project 
