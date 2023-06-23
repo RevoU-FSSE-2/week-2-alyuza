@@ -171,7 +171,6 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-/* for tablet and desktop */
 @media only screen and (min-width: 768px) {
   iframe {
     max-width: 480px;
@@ -192,5 +191,23 @@ button[type="submit"] {
   
   .grid-container #item-2 {
     grid-row: 1;
+  }
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 1023px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
   }
 }
