@@ -22,6 +22,6 @@ Untuk Hamburger belum diaplikasikan, kedepannya akan dibuat 'ketika hambuger di 
 
 ![image](Assets/github.png)
 
-###DEPLOYMENT
+### DEPLOYMENT
 
 Click [here](https://world-taekwondo.netlify.app/) to see MY Project 
