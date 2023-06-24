@@ -3,7 +3,7 @@
 
 ## Hi semua, Saya Alyuza Satrio Prayogo 👋
 Pada tugas kedua ini saya membuat website seputar beladiri Taekwondo menggunakan Semantic element, Responsive design menggunakan media Query, flex dan grid.
-Website ini dapat ditampilkan pada layar desktop (1080px) dan layar mobile minimal (380px).
+Website ini dapat ditampilkan pada layar Desktop / Laptop dan layar Mobile.
 
 
 Di dalam navigation ada beberapa menu:
