@@ -2,7 +2,7 @@
 # Week-2 RevoU Assignment 👨‍💻
 
 ## Hi semua, Saya Alyuza Satrio Prayogo 👋
-Pada tugas kedua ini saya membuat website seputar beladiri Taekwondo menggunakan Semantic element, Responsive design menggunakan media Query, flex dan grid.
+Pada tugas kedua ini saya membuat website seputar beladiri Taekwondo menggunakan Semantic element, Responsive Design menggunakan Media Query, Flex dan Grid.
 Website ini dapat ditampilkan pada layar Desktop / Laptop dan layar Mobile.
 
 
@@ -13,7 +13,7 @@ Di dalam navigation ada beberapa menu:
 - Kontak
 
 Menu-menu diatas belum terhubung dengan link.
-Untuk Hamburger belum diaplikasikan, kedepannya akan dibuat 'ketika hambuger di klik maka akan keluar menu Berita, Kompetisi, Profil atlit dan Kontak'
+Untuk Burger button belum diaplikasikan, kedepannya akan dibuat : 'ketika hambuger di klik maka akan keluar menu Berita, Kompetisi, Profil atlit dan Kontak'
 ## KOMPONEN YANG DIGUNAKAN
 - HTML
 - CSS
