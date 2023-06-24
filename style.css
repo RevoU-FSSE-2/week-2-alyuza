@@ -11,8 +11,10 @@ li a {
 }
 
 li a:hover{
-  color: rgb(18, 144, 223);
-  transition: 0.4s;
+  color: rgb(255, 255, 255);
+  transition: 0.7s;
+  background-color: #04495b;
+  padding: 6px;
 }
 
 section {
@@ -103,6 +105,11 @@ h2 {
   height: 100%;
 }
 
+#taekwondo-photos .grid-container img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .grid-container #item-1 {
   grid-row: 1;
 }
@@ -112,10 +119,15 @@ h2 {
   gap: 8px;
 }
 
-#section-ranking .grid-container img{
+#section-ranking .grid-container img {
   width: 100%;
   height: 100%;
   object-fit: fill;
+}
+
+#section-ranking .grid-container img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 figcaption {
@@ -202,12 +214,21 @@ button[type="submit"] {
   display: block;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1110px) {
   .mobile {
     display: block;
+    margin-right: 15px;
+    margin-left: auto;
   }
 
   .desktop {
     display: none;
   }
+}
+
+.mobile:hover {
+  background-color: #04495b;
+  border-radius: 3em;
+  transition: 0.5s;
+  padding: 4px;
 }
